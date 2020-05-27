@@ -1,0 +1,116 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "User SignIn Tests",
+    "children" : [ {
+      "name" : "Signin with exsisting User",
+      "uid" : "2055069e52705bd8",
+      "parentUid" : "4e3756f46d70770d604004fe616fbee5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590561995881,
+        "stop" : 1590562001525,
+        "duration" : 5644
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    } ],
+    "uid" : "4e3756f46d70770d604004fe616fbee5"
+  }, {
+    "name" : "Checkout Tests",
+    "children" : [ {
+      "name" : "Checkout and Verify Order",
+      "uid" : "5ae246ec475b869c",
+      "parentUid" : "bd008f1870f035b8764892f87387fcda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590571583456,
+        "stop" : 1590571609812,
+        "duration" : 26356
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    } ],
+    "uid" : "bd008f1870f035b8764892f87387fcda"
+  }, {
+    "name" : "Customer SignIn Tests",
+    "children" : [ {
+      "name" : "Signin with exsisting User",
+      "uid" : "a29f4a2e52d7087d",
+      "parentUid" : "4592ad1ca2fd135f1044abc59bf48cf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590571583893,
+        "stop" : 1590571594101,
+        "duration" : 10208
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    } ],
+    "uid" : "4592ad1ca2fd135f1044abc59bf48cf5"
+  }, {
+    "name" : "User Registration Tests",
+    "children" : [ {
+      "name" : "Register New User",
+      "uid" : "e6eaaa56a06a905b",
+      "parentUid" : "3db9bf21f6ecc5f3f726af264ca95f19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590572993324,
+        "stop" : 1590573003556,
+        "duration" : 10232
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    } ],
+    "uid" : "3db9bf21f6ecc5f3f726af264ca95f19"
+  }, {
+    "name" : "Employee Database Tests",
+    "children" : [ {
+      "name" : "Post Employee and Validate respose",
+      "uid" : "839dd1be0bb87364",
+      "parentUid" : "2f1c7a2f4eb0558dd6a14c183a976d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590573419861,
+        "stop" : 1590573420554,
+        "duration" : 693
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome Headless-10.0.17763" ]
+    }, {
+      "name" : "Get Employee and Validate response",
+      "uid" : "798fa709f7194a58",
+      "parentUid" : "2f1c7a2f4eb0558dd6a14c183a976d6e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590573423529,
+        "stop" : 1590573425067,
+        "duration" : 1538
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome Headless-10.0.17763" ]
+    }, {
+      "name" : "Get Employees and Validate JSON Schema",
+      "uid" : "ebf921ed97830659",
+      "parentUid" : "2f1c7a2f4eb0558dd6a14c183a976d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590573425070,
+        "stop" : 1590573425151,
+        "duration" : 81
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome Headless-10.0.17763" ]
+    } ],
+    "uid" : "2f1c7a2f4eb0558dd6a14c183a976d6e"
+  } ]
+}

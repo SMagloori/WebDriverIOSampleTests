@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1590578979299' stop='1590578979992'>
+    <name>Employee Database Tests</name>
+    <title>Employee Database Tests</title>
+    <test-cases>
+        <test-case start='1590578979314' status='passed' stop='1590578979991'>
+            <name>Post Employee and Validate respose</name>
+            <title>Post Employee and Validate respose</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-10.0.17763'/>
+            </parameters>
+            <steps>
+                <step start='1590578979324' status='passed' stop='1590578979985'>
+                    <name>Given I Call PostEmployee Endpoint</name>
+                    <title>Given I Call PostEmployee Endpoint</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578979986' status='passed' stop='1590578979987'>
+                    <name>When I Verify Status Code is "200"</name>
+                    <title>When I Verify Status Code is "200"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578979987' status='passed' stop='1590578979987'>
+                    <name>Then I Verify Status is "success"</name>
+                    <title>Then I Verify Status is "success"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578979987' status='passed' stop='1590578979989'>
+                    <name>Then I Validate JSON Schema for "PostEmployee" Endpoint for "200" Response</name>
+                    <title>Then I Validate JSON Schema for "PostEmployee" Endpoint for "200" Response</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578979989' status='passed' stop='1590578979990'>
+                    <name>Then I Verify EmployeeID is Generated and Present in response body</name>
+                    <title>Then I Verify EmployeeID is Generated and Present in response body</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578979990' status='passed' stop='1590578979990'>
+                    <name>Then I Verify Employee Details in response body is correct</name>
+                    <title>Then I Verify Employee Details in response body is correct</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

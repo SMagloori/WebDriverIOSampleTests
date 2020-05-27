@@ -1,0 +1,96 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Signin with exsisting User",
+    "uid" : "2055069e52705bd8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590561995881,
+      "stop" : 1590562001525,
+      "duration" : 5644
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome-10.0.17763" ]
+  }, {
+    "name" : "Checkout and Verify Order",
+    "uid" : "5ae246ec475b869c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590571583456,
+      "stop" : 1590571609812,
+      "duration" : 26356
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome-10.0.17763" ]
+  }, {
+    "name" : "Signin with exsisting User",
+    "uid" : "a29f4a2e52d7087d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590571583893,
+      "stop" : 1590571594101,
+      "duration" : 10208
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome-10.0.17763" ]
+  }, {
+    "name" : "Register New User",
+    "uid" : "e6eaaa56a06a905b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590572993324,
+      "stop" : 1590573003556,
+      "duration" : 10232
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome-10.0.17763" ]
+  }, {
+    "name" : "Post Employee and Validate respose",
+    "uid" : "839dd1be0bb87364",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590573419861,
+      "stop" : 1590573420554,
+      "duration" : 693
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome Headless-10.0.17763" ]
+  }, {
+    "name" : "Get Employee and Validate response",
+    "uid" : "798fa709f7194a58",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1590573423529,
+      "stop" : 1590573425067,
+      "duration" : 1538
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome Headless-10.0.17763" ]
+  }, {
+    "name" : "Get Employees and Validate JSON Schema",
+    "uid" : "ebf921ed97830659",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590573425070,
+      "stop" : 1590573425151,
+      "duration" : 81
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome Headless-10.0.17763" ]
+  } ]
+}

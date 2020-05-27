@@ -1,0 +1,126 @@
+{
+  "uid" : "a622d5a8ceb1b78e",
+  "name" : "Get Employees and Validate JSON Schema",
+  "fullName" : "Employee Database Tests.Get Employees and Validate JSON Schema",
+  "historyId" : "3876165431393038670d8ef698f9afd7",
+  "time" : {
+    "start" : 1590573419442,
+    "stop" : 1590573419859,
+    "duration" : 417
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I Call GetEmployees Endpoint",
+      "time" : {
+        "start" : 1590573419450,
+        "stop" : 1590573419845,
+        "duration" : 395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I Verify Status Code is \"200\"",
+      "time" : {
+        "start" : 1590573419846,
+        "stop" : 1590573419847,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify Status is \"success\"",
+      "time" : {
+        "start" : 1590573419848,
+        "stop" : 1590573419848,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Validate JSON Schema for \"GetEmployees\" Endpoint for \"200\" Response",
+      "time" : {
+        "start" : 1590573419848,
+        "stop" : 1590573419856,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Employee Database Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Employee Database Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Employees and Validate JSON Schema"
+  }, {
+    "name" : "package",
+    "value" : "Employee Database Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome Headless-10.0.17763"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a622d5a8ceb1b78e.json",
+  "parameterValues" : [ "Chrome Headless-10.0.17763" ]
+}

@@ -1,0 +1,191 @@
+{
+  "uid" : "1b09eeb43222e7ad",
+  "name" : "Get Employee and Validate response",
+  "fullName" : "Employee Database Tests.Get Employee and Validate response",
+  "historyId" : "30381e1a4058185de5121a7b7e4c6177",
+  "time" : {
+    "start" : 1590573422093,
+    "stop" : 1590573423527,
+    "duration" : 1434
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected value to match json-schema '{\"type\":\"object\",\"properties\":...' -> '{\"status\":\"success\",\"data\":nul...'\n                      Invalid type: null (expected object)\n                          schema: {\"type\":\"object\",\"properties\":{\"status\":{\"type\":\"string\"},\"d...\n                          rule:   /properties/data/type -> \"object\"\n                          field:  /data -> null: null",
+  "statusTrace" : "AssertionError: expected value to match json-schema '{\"type\":\"object\",\"properties\":...' -> '{\"status\":\"success\",\"data\":nul...'\n                      Invalid type: null (expected object)\n                          schema: {\"type\":\"object\",\"properties\":{\"status\":{\"type\":\"string\"},\"d...\n                          rule:   /properties/data/type -> \"object\"\n                          field:  /data -> null: null\n                    at World.<anonymous> (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\API\\Steps\\/Common_Steps.js:28:30)\n                    at World.executeAsync (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\utils\\build\\shim.js:123:21)\n                    at World.testFrameworkFnWrapper (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:49:28)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected value to match json-schema '{\"type\":\"object\",\"properties\":...' -> '{\"status\":\"success\",\"data\":nul...'\n                      Invalid type: null (expected object)\n                          schema: {\"type\":\"object\",\"properties\":{\"status\":{\"type\":\"string\"},\"d...\n                          rule:   /properties/data/type -> \"object\"\n                          field:  /data -> null: null",
+    "statusTrace" : "AssertionError: expected value to match json-schema '{\"type\":\"object\",\"properties\":...' -> '{\"status\":\"success\",\"data\":nul...'\n                      Invalid type: null (expected object)\n                          schema: {\"type\":\"object\",\"properties\":{\"status\":{\"type\":\"string\"},\"d...\n                          rule:   /properties/data/type -> \"object\"\n                          field:  /data -> null: null\n                    at World.<anonymous> (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\API\\Steps\\/Common_Steps.js:28:30)\n                    at World.executeAsync (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\utils\\build\\shim.js:123:21)\n                    at World.testFrameworkFnWrapper (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:49:28)",
+    "steps" : [ {
+      "name" : "Given I Call PostEmployee Endpoint",
+      "time" : {
+        "start" : 1590573422094,
+        "stop" : 1590573422746,
+        "duration" : 652
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify EmployeeID is Generated and Present in response body",
+      "time" : {
+        "start" : 1590573422746,
+        "stop" : 1590573422747,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I Call PutEmployee Endpoint",
+      "time" : {
+        "start" : 1590573422747,
+        "stop" : 1590573423518,
+        "duration" : 771
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify Status Code is \"200\"",
+      "time" : {
+        "start" : 1590573423519,
+        "stop" : 1590573423520,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify Status is \"success\"",
+      "time" : {
+        "start" : 1590573423520,
+        "stop" : 1590573423520,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Validate JSON Schema for \"PutEmployee\" Endpoint for \"200\" Response",
+      "time" : {
+        "start" : 1590573423520,
+        "stop" : 1590573423527,
+        "duration" : 7
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: expected value to match json-schema '{\"type\":\"object\",\"properties\":...' -> '{\"status\":\"success\",\"data\":nul...'\n                      Invalid type: null (expected object)\n                          schema: {\"type\":\"object\",\"properties\":{\"status\":{\"type\":\"string\"},\"d...\n                          rule:   /properties/data/type -> \"object\"\n                          field:  /data -> null: null\n                    at World.<anonymous> (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\API\\Steps\\/Common_Steps.js:28:30)\n                    at World.executeAsync (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\utils\\build\\shim.js:123:21)\n                    at World.testFrameworkFnWrapper (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:49:28)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify EmployeeID Present in response body is correct",
+      "time" : {
+        "start" : 1590573423527,
+        "stop" : 1590573423528,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify Employee Details in response body is correct",
+      "time" : {
+        "start" : 1590573423528,
+        "stop" : 1590573423528,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Employee Database Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Employee Database Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Employee and Validate response"
+  }, {
+    "name" : "package",
+    "value" : "Employee Database Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome Headless-10.0.17763"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b09eeb43222e7ad.json",
+  "parameterValues" : [ "Chrome Headless-10.0.17763" ]
+}

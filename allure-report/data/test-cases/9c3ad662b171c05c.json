@@ -1,0 +1,201 @@
+{
+  "uid" : "9c3ad662b171c05c",
+  "name" : "Register New User",
+  "fullName" : "User Registration Tests.Register New User",
+  "historyId" : "4c42f7fb234b6dd7440f8c309f6c0926",
+  "time" : {
+    "start" : 1590572843989,
+    "stop" : 1590572861007,
+    "duration" : 17018
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I Naviate to Home Page",
+      "time" : {
+        "start" : 1590572843995,
+        "stop" : 1590572846997,
+        "duration" : 3002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I Click SignIn Button",
+      "time" : {
+        "start" : 1590572846997,
+        "stop" : 1590572847102,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Populate Email Address Field",
+      "time" : {
+        "start" : 1590572847103,
+        "stop" : 1590572850163,
+        "duration" : 3060
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Click Create an Account Button",
+      "time" : {
+        "start" : 1590572850164,
+        "stop" : 1590572850300,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Pupulate All Mandatory Fields",
+      "time" : {
+        "start" : 1590572850301,
+        "stop" : 1590572854436,
+        "duration" : 4135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Click Register Button",
+      "time" : {
+        "start" : 1590572854436,
+        "stop" : 1590572854518,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify My Account Page is Displayed",
+      "time" : {
+        "start" : 1590572854518,
+        "stop" : 1590572860923,
+        "duration" : 6405
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify Customer Name on Header",
+      "time" : {
+        "start" : 1590572860924,
+        "stop" : 1590572860939,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Click on Logout",
+      "time" : {
+        "start" : 1590572860939,
+        "stop" : 1590572861001,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "User Registration Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "User Registration Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Register New User"
+  }, {
+    "name" : "package",
+    "value" : "User Registration Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-10.0.17763"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9c3ad662b171c05c.json",
+  "parameterValues" : [ "Chrome-10.0.17763" ]
+}

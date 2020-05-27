@@ -1,0 +1,341 @@
+{
+  "uid" : "166567e0a886d558",
+  "name" : "Checkout and Verify Order",
+  "fullName" : "Checkout Tests.Checkout and Verify Order",
+  "historyId" : "d2442014965172611f2177adc1dc1158",
+  "time" : {
+    "start" : 1590570902858,
+    "stop" : 1590570922245,
+    "duration" : 19387
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"input#cgv\") still not displayed after 3000ms",
+  "statusTrace" : "Error: element (\"input#cgv\") still not displayed after 3000ms\n                    at C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:34:15\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at Element.runCommandWithHooks (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.waitForDisplayed (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at ShippingPage.selectTandCCheckBox (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\UI\\PageObjects\\/ShippingPage.js:8:28)\n                    at World.<anonymous> (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\UI\\Steps\\/ShippingPage_Steps.js:8:18)\n                    at World.executeSync (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"input#cgv\") still not displayed after 3000ms",
+    "statusTrace" : "Error: element (\"input#cgv\") still not displayed after 3000ms\n                    at C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:34:15\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at Element.runCommandWithHooks (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.waitForDisplayed (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at ShippingPage.selectTandCCheckBox (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\UI\\PageObjects\\/ShippingPage.js:8:28)\n                    at World.<anonymous> (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\UI\\Steps\\/ShippingPage_Steps.js:8:18)\n                    at World.executeSync (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "Given I Naviate to Home Page",
+      "time" : {
+        "start" : 1590570902865,
+        "stop" : 1590570905987,
+        "duration" : 3122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I Click SignIn Button",
+      "time" : {
+        "start" : 1590570905987,
+        "stop" : 1590570906098,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Populate Registered Customer Credentials",
+      "time" : {
+        "start" : 1590570906098,
+        "stop" : 1590570908003,
+        "duration" : 1905
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Click Signin Button",
+      "time" : {
+        "start" : 1590570908003,
+        "stop" : 1590570908217,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify Customer Name on Header",
+      "time" : {
+        "start" : 1590570908218,
+        "stop" : 1590570909505,
+        "duration" : 1287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Click Woman Category Tab",
+      "time" : {
+        "start" : 1590570909505,
+        "stop" : 1590570909556,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Select Product with name Faded Short Sleeve T-shirts",
+      "time" : {
+        "start" : 1590570909556,
+        "stop" : 1590570911611,
+        "duration" : 2055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify Product Description Page is Displayed",
+      "time" : {
+        "start" : 1590570911612,
+        "stop" : 1590570914126,
+        "duration" : 2514
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Add Product to Kart",
+      "time" : {
+        "start" : 1590570914126,
+        "stop" : 1590570914194,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Click Proceed to Checkout Button On Product Description Page",
+      "time" : {
+        "start" : 1590570914194,
+        "stop" : 1590570915449,
+        "duration" : 1255
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Click Proceed to Checkout Button On Shopping Cart Page",
+      "time" : {
+        "start" : 1590570915449,
+        "stop" : 1590570917193,
+        "duration" : 1744
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Click Proceed to Checkout Button On Addresses Page",
+      "time" : {
+        "start" : 1590570917194,
+        "stop" : 1590570918160,
+        "duration" : 966
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Click on Terms and Conditions CheckBox On Shipping Page",
+      "time" : {
+        "start" : 1590570918160,
+        "stop" : 1590570922245,
+        "duration" : 4085
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"input#cgv\") still not displayed after 3000ms\n                    at C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:34:15\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at Element.runCommandWithHooks (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.waitForDisplayed (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at ShippingPage.selectTandCCheckBox (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\UI\\PageObjects\\/ShippingPage.js:8:28)\n                    at World.<anonymous> (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\UI\\Steps\\/ShippingPage_Steps.js:8:18)\n                    at World.executeSync (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Click Proceed to Checkout Button On Shipping Page",
+      "time" : {
+        "start" : 1590570922246,
+        "stop" : 1590570922248,
+        "duration" : 2
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Select Pay By Wire Option on Payment Page",
+      "time" : {
+        "start" : 1590570922248,
+        "stop" : 1590570922248,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Click I Confirm My Order Button On Payment Page",
+      "time" : {
+        "start" : 1590570922249,
+        "stop" : 1590570922249,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify that Order Confirmation Page is Displayed",
+      "time" : {
+        "start" : 1590570922249,
+        "stop" : 1590570922249,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify that Order is Complete Text is Displayed",
+      "time" : {
+        "start" : 1590570922250,
+        "stop" : 1590570922250,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 18
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Checkout Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checkout and Verify Order"
+  }, {
+    "name" : "package",
+    "value" : "Checkout Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-10.0.17763"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "166567e0a886d558.json",
+  "parameterValues" : [ "Chrome-10.0.17763" ]
+}

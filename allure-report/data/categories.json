@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected 'failed' to equal 'success'",
+      "children" : [ {
+        "name" : "Get Employee and Validate response",
+        "uid" : "798fa709f7194a58",
+        "parentUid" : "047208f582bad561088c69b285c715a7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590573423529,
+          "stop" : 1590573425067,
+          "duration" : 1538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome Headless-10.0.17763" ]
+      } ],
+      "uid" : "047208f582bad561088c69b285c715a7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

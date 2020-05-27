@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1590571583871' stop='1590571594103'>
+    <name>Customer SignIn Tests</name>
+    <title>Customer SignIn Tests</title>
+    <test-cases>
+        <test-case start='1590571583893' status='passed' stop='1590571594101'>
+            <name>Signin with exsisting User</name>
+            <title>Signin with exsisting User</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.17763'/>
+            </parameters>
+            <steps>
+                <step start='1590571583904' status='passed' stop='1590571589113'>
+                    <name>Given I Naviate to Home Page</name>
+                    <title>Given I Naviate to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590571589114' status='passed' stop='1590571589255'>
+                    <name>When I Click SignIn Button</name>
+                    <title>When I Click SignIn Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590571589256' status='passed' stop='1590571592124'>
+                    <name>Then I Populate Registered Customer Credentials</name>
+                    <title>Then I Populate Registered Customer Credentials</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590571592124' status='passed' stop='1590571592282'>
+                    <name>Then I Click Signin Button</name>
+                    <title>Then I Click Signin Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590571592284' status='passed' stop='1590571593910'>
+                    <name>Then I Verify Customer Name on Header</name>
+                    <title>Then I Verify Customer Name on Header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590571593910' status='passed' stop='1590571594097'>
+                    <name>Then I Click on Logout</name>
+                    <title>Then I Click on Logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1590578428078' stop='1590578429550'>
+    <name>Employee Database Tests</name>
+    <title>Employee Database Tests</title>
+    <test-cases>
+        <test-case start='1590578428091' status='failed' stop='1590578429547'>
+            <name>Get Employee and Validate response</name>
+            <title>Get Employee and Validate response</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-10.0.17763'/>
+            </parameters>
+            <steps>
+                <step start='1590578428095' status='passed' stop='1590578428806'>
+                    <name>Given I Call PostEmployee Endpoint</name>
+                    <title>Given I Call PostEmployee Endpoint</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578428806' status='passed' stop='1590578428807'>
+                    <name>Then I Verify EmployeeID is Generated and Present in response body</name>
+                    <title>Then I Verify EmployeeID is Generated and Present in response body</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578428807' status='passed' stop='1590578429543'>
+                    <name>When I Call GetEmployee Endpoint</name>
+                    <title>When I Call GetEmployee Endpoint</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578429543' status='failed' stop='1590578429547'>
+                    <name>Then I Verify Status Code is "200"</name>
+                    <title>Then I Verify Status Code is "200"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578429547' status='canceled' stop='1590578429548'>
+                    <name>Then I Verify Status is "success"</name>
+                    <title>Then I Verify Status is "success"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578429548' status='canceled' stop='1590578429548'>
+                    <name>Then I Validate JSON Schema for "GetEmployee" Endpoint for "200" Response</name>
+                    <title>Then I Validate JSON Schema for "GetEmployee" Endpoint for "200" Response</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578429548' status='canceled' stop='1590578429548'>
+                    <name>Then I Verify EmployeeID is Generated and Present in response body</name>
+                    <title>Then I Verify EmployeeID is Generated and Present in response body</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578429548' status='canceled' stop='1590578429548'>
+                    <name>Then I Verify Employee Details in response body is correct</name>
+                    <title>Then I Verify Employee Details in response body is correct</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578429548' status='canceled' stop='1590578429548'>
+                    <name>Then I Verify Employee Profile Image Link is present in response body</name>
+                    <title>Then I Verify Employee Profile Image Link is present in response body</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected '400' to equal '200'</message>
+                <stack-trace>AssertionError: expected '400' to equal '200'
+                    at World.&lt;anonymous> (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\API\Steps\/Common_Steps.js:18:43)
+                    at World.executeAsync (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\utils\build\shim.js:123:21)
+                    at World.testFrameworkFnWrapper (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:49:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

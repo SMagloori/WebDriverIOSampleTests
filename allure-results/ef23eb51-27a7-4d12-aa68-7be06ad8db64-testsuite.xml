@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1590577227981' stop='1590577236330'>
+    <name>User Registration Tests</name>
+    <title>User Registration Tests</title>
+    <test-cases>
+        <test-case start='1590577227994' status='passed' stop='1590577236329'>
+            <name>Register New User</name>
+            <title>Register New User</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.17763'/>
+            </parameters>
+            <steps>
+                <step start='1590577227998' status='passed' stop='1590577230785'>
+                    <name>Given I Naviate to Home Page</name>
+                    <title>Given I Naviate to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590577230785' status='passed' stop='1590577230817'>
+                    <name>When I Click SignIn Button</name>
+                    <title>When I Click SignIn Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590577230817' status='passed' stop='1590577231999'>
+                    <name>Then I Populate Email Address Field</name>
+                    <title>Then I Populate Email Address Field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590577231999' status='passed' stop='1590577232143'>
+                    <name>Then I Click Create an Account Button</name>
+                    <title>Then I Click Create an Account Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590577232144' status='passed' stop='1590577234717'>
+                    <name>Then I Pupulate All Mandatory Fields</name>
+                    <title>Then I Pupulate All Mandatory Fields</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590577234717' status='passed' stop='1590577234759'>
+                    <name>Then I Click Register Button</name>
+                    <title>Then I Click Register Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590577234759' status='passed' stop='1590577236162'>
+                    <name>Then I Verify My Account Page is Displayed</name>
+                    <title>Then I Verify My Account Page is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590577236163' status='passed' stop='1590577236172'>
+                    <name>Then I Verify Customer Name on Header</name>
+                    <title>Then I Verify Customer Name on Header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590577236172' status='passed' stop='1590577236327'>
+                    <name>Then I Click on Logout</name>
+                    <title>Then I Click on Logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

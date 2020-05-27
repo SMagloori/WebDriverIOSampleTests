@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1590572470593' stop='1590572481267'>
+    <name>User Registration Tests</name>
+    <title>User Registration Tests</title>
+    <test-cases>
+        <test-case start='1590572470620' status='broken' stop='1590572481263'>
+            <name>Register New User</name>
+            <title>Register New User</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.17763'/>
+            </parameters>
+            <steps>
+                <step start='1590572470628' status='passed' stop='1590572474381'>
+                    <name>Given I Naviate to Home Page</name>
+                    <title>Given I Naviate to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590572474381' status='passed' stop='1590572474457'>
+                    <name>When I Click SignIn Button</name>
+                    <title>When I Click SignIn Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590572474458' status='passed' stop='1590572475739'>
+                    <name>Then I Populate Email Address Field</name>
+                    <title>Then I Populate Email Address Field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590572475739' status='passed' stop='1590572475844'>
+                    <name>Then I Click Create an Account Button</name>
+                    <title>Then I Click Create an Account Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590572475844' status='passed' stop='1590572479352'>
+                    <name>Then I Pupulate All Mandatory Fields</name>
+                    <title>Then I Pupulate All Mandatory Fields</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590572479353' status='passed' stop='1590572479429'>
+                    <name>Then I Click Register Button</name>
+                    <title>Then I Click Register Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590572479429' status='passed' stop='1590572481256'>
+                    <name>Then I Verify My Account Page is Displayed</name>
+                    <title>Then I Verify My Account Page is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590572481256' status='broken' stop='1590572481262'>
+                    <name>Then I Verify Customer Name on Header</name>
+                    <title>Then I Verify Customer Name on Header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590572481263' status='canceled' stop='1590572481264'>
+                    <name>Then I Click on Logout</name>
+                    <title>Then I Click on Logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Environment is not defined</message>
+                <stack-trace>ReferenceError: Environment is not defined
+                    at World.&lt;anonymous> (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\UI\Steps\/MyAccountPage_Steps.js:8:17)
+                    at World.executeSync (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
