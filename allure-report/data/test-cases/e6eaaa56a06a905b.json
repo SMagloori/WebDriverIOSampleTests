@@ -1,0 +1,317 @@
+{
+  "uid" : "e6eaaa56a06a905b",
+  "name" : "Register New User",
+  "fullName" : "User Registration Tests.Register New User",
+  "historyId" : "4c42f7fb234b6dd7440f8c309f6c0926",
+  "time" : {
+    "start" : 1590572993324,
+    "stop" : 1590573003556,
+    "duration" : 10232
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I Naviate to Home Page",
+      "time" : {
+        "start" : 1590572993331,
+        "stop" : 1590572996777,
+        "duration" : 3446
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I Click SignIn Button",
+      "time" : {
+        "start" : 1590572996777,
+        "stop" : 1590572996842,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Populate Email Address Field",
+      "time" : {
+        "start" : 1590572996843,
+        "stop" : 1590572998528,
+        "duration" : 1685
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Click Create an Account Button",
+      "time" : {
+        "start" : 1590572998528,
+        "stop" : 1590572998625,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Pupulate All Mandatory Fields",
+      "time" : {
+        "start" : 1590572998626,
+        "stop" : 1590573001630,
+        "duration" : 3004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Click Register Button",
+      "time" : {
+        "start" : 1590573001631,
+        "stop" : 1590573001699,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify My Account Page is Displayed",
+      "time" : {
+        "start" : 1590573001699,
+        "stop" : 1590573003459,
+        "duration" : 1760
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify Customer Name on Header",
+      "time" : {
+        "start" : 1590573003459,
+        "stop" : 1590573003481,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Click on Logout",
+      "time" : {
+        "start" : 1590573003481,
+        "stop" : 1590573003553,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "User Registration Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "User Registration Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Register New User"
+  }, {
+    "name" : "package",
+    "value" : "User Registration Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-10.0.17763"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9c3ad662b171c05c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590572843989,
+        "stop" : 1590572861007,
+        "duration" : 17018
+      }
+    }, {
+      "uid" : "a0a8041b7dd942c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590572737512,
+        "stop" : 1590572747397,
+        "duration" : 9885
+      }
+    }, {
+      "uid" : "e13f972b520c2137",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590572590024,
+        "stop" : 1590572599562,
+        "duration" : 9538
+      }
+    }, {
+      "uid" : "43d32ec970c78d6e",
+      "status" : "broken",
+      "statusDetails" : "Environment is not defined",
+      "time" : {
+        "start" : 1590572470620,
+        "stop" : 1590572481263,
+        "duration" : 10643
+      }
+    }, {
+      "uid" : "3bfdcaf084298185",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590572383914,
+        "stop" : 1590572394890,
+        "duration" : 10976
+      }
+    }, {
+      "uid" : "f32f7bd280bed032",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590571583558,
+        "stop" : 1590571599073,
+        "duration" : 15515
+      }
+    }, {
+      "uid" : "a10dad72df74688f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590571542366,
+        "stop" : 1590571553884,
+        "duration" : 11518
+      }
+    }, {
+      "uid" : "995fd166ae4cdb5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590560163106,
+        "stop" : 1590560171248,
+        "duration" : 8142
+      }
+    }, {
+      "uid" : "703f22c2eb47c9f3",
+      "status" : "failed",
+      "statusDetails" : "expected 'firstName lastName' to equal 'Test Name'",
+      "time" : {
+        "start" : 1590560056315,
+        "stop" : 1590560065599,
+        "duration" : 9284
+      }
+    }, {
+      "uid" : "8041ec78184df11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590558612499,
+        "stop" : 1590558621313,
+        "duration" : 8814
+      }
+    }, {
+      "uid" : "fa620e81e076bd17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590558592435,
+        "stop" : 1590558601774,
+        "duration" : 9339
+      }
+    }, {
+      "uid" : "d7b82cd173f4feec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590558294304,
+        "stop" : 1590558304250,
+        "duration" : 9946
+      }
+    }, {
+      "uid" : "733011f4346d3e61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590525626057,
+        "stop" : 1590525633913,
+        "duration" : 7856
+      }
+    }, {
+      "uid" : "8151134c7183073",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590525100126,
+        "stop" : 1590525108230,
+        "duration" : 8104
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6eaaa56a06a905b.json",
+  "parameterValues" : [ "Chrome-10.0.17763" ]
+}

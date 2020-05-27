@@ -1,0 +1,185 @@
+{
+  "uid" : "798fa709f7194a58",
+  "name" : "Get Employee and Validate response",
+  "fullName" : "Employee Database Tests.Get Employee and Validate response",
+  "historyId" : "30381e1a4058185de5121a7b7e4c6177",
+  "time" : {
+    "start" : 1590573423529,
+    "stop" : 1590573425067,
+    "duration" : 1538
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'failed' to equal 'success'",
+  "statusTrace" : "AssertionError: expected 'failed' to equal 'success'\n                    at World.<anonymous> (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\API\\Steps\\/Common_Steps.js:22:45)\n                    at World.executeAsync (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\utils\\build\\shim.js:123:21)\n                    at World.testFrameworkFnWrapper (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:49:28)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 'failed' to equal 'success'",
+    "statusTrace" : "AssertionError: expected 'failed' to equal 'success'\n                    at World.<anonymous> (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\API\\Steps\\/Common_Steps.js:22:45)\n                    at World.executeAsync (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\utils\\build\\shim.js:123:21)\n                    at World.testFrameworkFnWrapper (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:49:28)",
+    "steps" : [ {
+      "name" : "Given I Call PostEmployee Endpoint",
+      "time" : {
+        "start" : 1590573423530,
+        "stop" : 1590573424337,
+        "duration" : 807
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify EmployeeID is Generated and Present in response body",
+      "time" : {
+        "start" : 1590573424338,
+        "stop" : 1590573424339,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I Call DeleteEmployee Endpoint",
+      "time" : {
+        "start" : 1590573424339,
+        "stop" : 1590573425064,
+        "duration" : 725
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify Status Code is \"200\"",
+      "time" : {
+        "start" : 1590573425065,
+        "stop" : 1590573425066,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify Status is \"success\"",
+      "time" : {
+        "start" : 1590573425066,
+        "stop" : 1590573425067,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: expected 'failed' to equal 'success'\n                    at World.<anonymous> (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\API\\Steps\\/Common_Steps.js:22:45)\n                    at World.executeAsync (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\utils\\build\\shim.js:123:21)\n                    at World.testFrameworkFnWrapper (C:\\Users\\CPANDITH\\Desktop\\GFK\\AutomationTest\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:49:28)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Validate JSON Schema for \"DeleteEmployee\" Endpoint for \"200\" Response",
+      "time" : {
+        "start" : 1590573425068,
+        "stop" : 1590573425068,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Employee Database Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Employee Database Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Employee and Validate response"
+  }, {
+    "name" : "package",
+    "value" : "Employee Database Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome Headless-10.0.17763"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1b09eeb43222e7ad",
+      "status" : "failed",
+      "statusDetails" : "expected value to match json-schema '{\"type\":\"object\",\"properties\":...' -> '{\"status\":\"success\",\"data\":nul...'\n                      Invalid type: null (expected object)\n                          schema: {\"type\":\"object\",\"properties\":{\"status\":{\"type\":\"string\"},\"d...\n                          rule:   /properties/data/type -> \"object\"\n                          field:  /data -> null: null",
+      "time" : {
+        "start" : 1590573422093,
+        "stop" : 1590573423527,
+        "duration" : 1434
+      }
+    }, {
+      "uid" : "5cd763db74b0b639",
+      "status" : "failed",
+      "statusDetails" : "expected '400' to equal '200'",
+      "time" : {
+        "start" : 1590573420556,
+        "stop" : 1590573422089,
+        "duration" : 1533
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "798fa709f7194a58.json",
+  "parameterValues" : [ "Chrome Headless-10.0.17763" ]
+}

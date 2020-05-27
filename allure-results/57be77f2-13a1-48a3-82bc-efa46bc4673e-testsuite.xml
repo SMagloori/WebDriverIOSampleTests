@@ -1,0 +1,144 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1590570902838' stop='1590570922256'>
+    <name>Checkout Tests</name>
+    <title>Checkout Tests</title>
+    <test-cases>
+        <test-case start='1590570902858' status='broken' stop='1590570922245'>
+            <name>Checkout and Verify Order</name>
+            <title>Checkout and Verify Order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.17763'/>
+            </parameters>
+            <steps>
+                <step start='1590570902865' status='passed' stop='1590570905987'>
+                    <name>Given I Naviate to Home Page</name>
+                    <title>Given I Naviate to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570905987' status='passed' stop='1590570906098'>
+                    <name>When I Click SignIn Button</name>
+                    <title>When I Click SignIn Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570906098' status='passed' stop='1590570908003'>
+                    <name>Then I Populate Registered Customer Credentials</name>
+                    <title>Then I Populate Registered Customer Credentials</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570908003' status='passed' stop='1590570908217'>
+                    <name>Then I Click Signin Button</name>
+                    <title>Then I Click Signin Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570908218' status='passed' stop='1590570909505'>
+                    <name>Then I Verify Customer Name on Header</name>
+                    <title>Then I Verify Customer Name on Header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570909505' status='passed' stop='1590570909556'>
+                    <name>Then I Click Woman Category Tab</name>
+                    <title>Then I Click Woman Category Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570909556' status='passed' stop='1590570911611'>
+                    <name>Then I Select Product with name Faded Short Sleeve T-shirts</name>
+                    <title>Then I Select Product with name Faded Short Sleeve T-shirts</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570911612' status='passed' stop='1590570914126'>
+                    <name>Then I Verify Product Description Page is Displayed</name>
+                    <title>Then I Verify Product Description Page is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570914126' status='passed' stop='1590570914194'>
+                    <name>Then I Add Product to Kart</name>
+                    <title>Then I Add Product to Kart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570914194' status='passed' stop='1590570915449'>
+                    <name>Then I Click Proceed to Checkout Button On Product Description Page</name>
+                    <title>Then I Click Proceed to Checkout Button On Product Description Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570915449' status='passed' stop='1590570917193'>
+                    <name>Then I Click Proceed to Checkout Button On Shopping Cart Page</name>
+                    <title>Then I Click Proceed to Checkout Button On Shopping Cart Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570917194' status='passed' stop='1590570918160'>
+                    <name>Then I Click Proceed to Checkout Button On Addresses Page</name>
+                    <title>Then I Click Proceed to Checkout Button On Addresses Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570918160' status='broken' stop='1590570922245'>
+                    <name>Then I Click on Terms and Conditions CheckBox On Shipping Page</name>
+                    <title>Then I Click on Terms and Conditions CheckBox On Shipping Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570922246' status='canceled' stop='1590570922248'>
+                    <name>Then I Click Proceed to Checkout Button On Shipping Page</name>
+                    <title>Then I Click Proceed to Checkout Button On Shipping Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570922248' status='canceled' stop='1590570922248'>
+                    <name>Then I Select Pay By Wire Option on Payment Page</name>
+                    <title>Then I Select Pay By Wire Option on Payment Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570922249' status='canceled' stop='1590570922249'>
+                    <name>Then I Click I Confirm My Order Button On Payment Page</name>
+                    <title>Then I Click I Confirm My Order Button On Payment Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570922249' status='canceled' stop='1590570922249'>
+                    <name>Then I Verify that Order Confirmation Page is Displayed</name>
+                    <title>Then I Verify that Order Confirmation Page is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570922250' status='canceled' stop='1590570922250'>
+                    <name>Then I Verify that Order is Complete Text is Displayed</name>
+                    <title>Then I Verify that Order is Complete Text is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element ("input#cgv") still not displayed after 3000ms</message>
+                <stack-trace>Error: element ("input#cgv") still not displayed after 3000ms
+                    at C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\webdriverio\build\commands\browser\waitUntil.js:34:15
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\webdriverio\build\middlewares.js:21:24)
+                    at Element.runCommandWithHooks (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Element.runCommandWithHooks (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.waitForDisplayed (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at ShippingPage.selectTandCCheckBox (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\UI\PageObjects\/ShippingPage.js:8:28)
+                    at World.&lt;anonymous> (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\UI\Steps\/ShippingPage_Steps.js:8:18)
+                    at World.executeSync (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1590578398757' stop='1590578398866'>
+    <name>Employee Database Tests</name>
+    <title>Employee Database Tests</title>
+    <test-cases>
+        <test-case start='1590578398773' status='passed' stop='1590578398865'>
+            <name>Get Employees and Validate JSON Schema</name>
+            <title>Get Employees and Validate JSON Schema</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-10.0.17763'/>
+            </parameters>
+            <steps>
+                <step start='1590578398777' status='passed' stop='1590578398860'>
+                    <name>Given I Call GetEmployees Endpoint</name>
+                    <title>Given I Call GetEmployees Endpoint</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578398860' status='passed' stop='1590578398861'>
+                    <name>When I Verify Status Code is "200"</name>
+                    <title>When I Verify Status Code is "200"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578398861' status='passed' stop='1590578398861'>
+                    <name>Then I Verify Status is "success"</name>
+                    <title>Then I Verify Status is "success"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578398861' status='passed' stop='1590578398864'>
+                    <name>Then I Validate JSON Schema for "GetEmployees" Endpoint for "200" Response</name>
+                    <title>Then I Validate JSON Schema for "GetEmployees" Endpoint for "200" Response</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

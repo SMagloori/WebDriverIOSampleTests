@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed May 27 11:26:23 CEST 2020","Wed May 27 11:26:34 CEST 2020","10208","","Customer SignIn Tests","","Customer SignIn Tests","Signin with exsisting User","Signin with exsisting User",""
+"passed","Wed May 27 11:49:53 CEST 2020","Wed May 27 11:50:03 CEST 2020","10232","","User Registration Tests","","User Registration Tests","Register New User","Register New User",""
+"passed","Wed May 27 11:26:23 CEST 2020","Wed May 27 11:26:49 CEST 2020","26356","","Checkout Tests","","Checkout Tests","Checkout and Verify Order","Checkout and Verify Order",""
+"failed","Wed May 27 11:57:03 CEST 2020","Wed May 27 11:57:05 CEST 2020","1538","","Employee Database Tests","","Employee Database Tests","Get Employee and Validate response","Get Employee and Validate response",""
+"passed","Wed May 27 11:56:59 CEST 2020","Wed May 27 11:57:00 CEST 2020","693","","Employee Database Tests","","Employee Database Tests","Post Employee and Validate respose","Post Employee and Validate respose",""
+"passed","Wed May 27 08:46:35 CEST 2020","Wed May 27 08:46:41 CEST 2020","5644","","User SignIn Tests","","User SignIn Tests","Signin with exsisting User","Signin with exsisting User",""
+"passed","Wed May 27 11:57:05 CEST 2020","Wed May 27 11:57:05 CEST 2020","81","","Employee Database Tests","","Employee Database Tests","Get Employees and Validate JSON Schema","Get Employees and Validate JSON Schema",""

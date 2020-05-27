@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1590577168320' stop='1590577175648'>
+    <name>User Registration Tests</name>
+    <title>User Registration Tests</title>
+    <test-cases>
+        <test-case start='1590577168332' status='failed' stop='1590577175645'>
+            <name>Register New User</name>
+            <title>Register New User</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.17763'/>
+            </parameters>
+            <steps>
+                <step start='1590577168335' status='passed' stop='1590577171946'>
+                    <name>Given I Naviate to Home Page</name>
+                    <title>Given I Naviate to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590577171946' status='passed' stop='1590577171975'>
+                    <name>When I Click SignIn Button</name>
+                    <title>When I Click SignIn Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590577171975' status='passed' stop='1590577173107'>
+                    <name>Then I Populate Email Address Field</name>
+                    <title>Then I Populate Email Address Field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590577173107' status='passed' stop='1590577173193'>
+                    <name>Then I Click Create an Account Button</name>
+                    <title>Then I Click Create an Account Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590577173194' status='failed' stop='1590577175645'>
+                    <name>Then I Pupulate All Mandatory Fields</name>
+                    <title>Then I Pupulate All Mandatory Fields</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590577175646' status='canceled' stop='1590577175646'>
+                    <name>Then I Click Register Button</name>
+                    <title>Then I Click Register Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590577175646' status='canceled' stop='1590577175646'>
+                    <name>Then I Verify My Account Page is Displayed</name>
+                    <title>Then I Verify My Account Page is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590577175646' status='canceled' stop='1590577175646'>
+                    <name>Then I Verify Customer Name on Header</name>
+                    <title>Then I Verify Customer Name on Header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590577175646' status='canceled' stop='1590577175646'>
+                    <name>Then I Click on Logout</name>
+                    <title>Then I Click on Logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Malformed type for "elementId" parameter of command elementClick
+                Expected: string
+                Actual: null
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-element-click
+                </message>
+                <stack-trace>Error: Malformed type for "elementId" parameter of command elementClick
+                Expected: string
+                Actual: null
+                For more info see https://w3c.github.io/webdriver/#dfn-element-click
+                    at validate (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\devtools\build\utils.js:64:13)
+                    at Element.wrappedCommand (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\devtools\build\devtoolsdriver.js:83:43)
+                    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\webdriverio\build\middlewares.js:21:24)
+                    at Element.runCommandWithHooks (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Element.runCommandWithHooks (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.selectByVisibleText (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at CustomerDetailsPage.selectCustomerState (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\UI\PageObjects\/CustomerDetailsPage.js:70:36)
+                    at World.&lt;anonymous> (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\UI\Steps\/CustomerDetailsPage_Steps.js:15:25)
+                    at World.executeSync (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

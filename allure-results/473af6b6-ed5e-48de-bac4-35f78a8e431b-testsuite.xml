@@ -1,0 +1,130 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1590578090658' stop='1590578114661'>
+    <name>Checkout Tests</name>
+    <title>Checkout Tests</title>
+    <test-cases>
+        <test-case start='1590578090680' status='passed' stop='1590578114661'>
+            <name>Checkout and Verify Order</name>
+            <title>Checkout and Verify Order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.17763'/>
+            </parameters>
+            <steps>
+                <step start='1590578090687' status='passed' stop='1590578094587'>
+                    <name>Given I Naviate to Home Page</name>
+                    <title>Given I Naviate to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578094587' status='passed' stop='1590578094722'>
+                    <name>When I Click SignIn Button</name>
+                    <title>When I Click SignIn Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578094722' status='passed' stop='1590578097071'>
+                    <name>Then I Populate Registered Customer Credentials</name>
+                    <title>Then I Populate Registered Customer Credentials</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578097071' status='passed' stop='1590578097199'>
+                    <name>Then I Click Signin Button</name>
+                    <title>Then I Click Signin Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578097199' status='passed' stop='1590578099412'>
+                    <name>Then I Verify Customer Name on Header</name>
+                    <title>Then I Verify Customer Name on Header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578099412' status='passed' stop='1590578099659'>
+                    <name>Then I Click Woman Category Tab</name>
+                    <title>Then I Click Woman Category Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578099660' status='passed' stop='1590578102231'>
+                    <name>Then I Select Product with name Faded Short Sleeve T-shirts</name>
+                    <title>Then I Select Product with name Faded Short Sleeve T-shirts</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578102231' status='passed' stop='1590578104292'>
+                    <name>Then I Verify Product Description Page is Displayed</name>
+                    <title>Then I Verify Product Description Page is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578104293' status='passed' stop='1590578104429'>
+                    <name>Then I Add Product to Kart</name>
+                    <title>Then I Add Product to Kart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578104430' status='passed' stop='1590578106530'>
+                    <name>Then I Click Proceed to Checkout Button On Product Description Page</name>
+                    <title>Then I Click Proceed to Checkout Button On Product Description Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578106531' status='passed' stop='1590578107739'>
+                    <name>Then I Click Proceed to Checkout Button On Shopping Cart Page</name>
+                    <title>Then I Click Proceed to Checkout Button On Shopping Cart Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578107740' status='passed' stop='1590578108580'>
+                    <name>Then I Click Proceed to Checkout Button On Addresses Page</name>
+                    <title>Then I Click Proceed to Checkout Button On Addresses Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578108581' status='passed' stop='1590578109406'>
+                    <name>Then I Click on Terms and Conditions CheckBox On Shipping Page</name>
+                    <title>Then I Click on Terms and Conditions CheckBox On Shipping Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578109406' status='passed' stop='1590578109441'>
+                    <name>Then I Click Proceed to Checkout Button On Shipping Page</name>
+                    <title>Then I Click Proceed to Checkout Button On Shipping Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578109441' status='passed' stop='1590578110393'>
+                    <name>Then I Select Pay By Wire Option on Payment Page</name>
+                    <title>Then I Select Pay By Wire Option on Payment Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578110393' status='passed' stop='1590578111176'>
+                    <name>Then I Click I Confirm My Order Button On Payment Page</name>
+                    <title>Then I Click I Confirm My Order Button On Payment Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578111176' status='passed' stop='1590578114652'>
+                    <name>Then I Verify that Order Confirmation Page is Displayed</name>
+                    <title>Then I Verify that Order Confirmation Page is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578114652' status='passed' stop='1590578114660'>
+                    <name>Then I Verify that Order is Complete Text is Displayed</name>
+                    <title>Then I Verify that Order is Complete Text is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

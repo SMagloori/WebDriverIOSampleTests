@@ -1,0 +1,394 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Get Employees and Validate JSON Schema",
+      "uid" : "ebf921ed97830659",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590573425070,
+        "stop" : 1590573425151,
+        "duration" : 81
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome Headless-10.0.17763" ]
+    }, {
+      "name" : "Post Employee and Validate respose",
+      "uid" : "839dd1be0bb87364",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590573419861,
+        "stop" : 1590573420554,
+        "duration" : 693
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome Headless-10.0.17763" ]
+    }, {
+      "name" : "Get Employee and Validate response",
+      "uid" : "798fa709f7194a58",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590573423529,
+        "stop" : 1590573425067,
+        "duration" : 1538
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome Headless-10.0.17763" ]
+    }, {
+      "name" : "Register New User",
+      "uid" : "733011f4346d3e61",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590525626057,
+        "stop" : 1590525633913,
+        "duration" : 7856
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Get Employees and Validate JSON Schema",
+      "uid" : "a622d5a8ceb1b78e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590573419442,
+        "stop" : 1590573419859,
+        "duration" : 417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome Headless-10.0.17763" ]
+    }, {
+      "name" : "Checkout and Verify Order",
+      "uid" : "71f9b958a28ac5de",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1590571108665,
+        "stop" : 1590571125604,
+        "duration" : 16939
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Register New User",
+      "uid" : "d7b82cd173f4feec",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590558294304,
+        "stop" : 1590558304250,
+        "duration" : 9946
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Register New User",
+      "uid" : "8151134c7183073",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590525100126,
+        "stop" : 1590525108230,
+        "duration" : 8104
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Register New User",
+      "uid" : "995fd166ae4cdb5f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590560163106,
+        "stop" : 1590560171248,
+        "duration" : 8142
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Get Employee and Validate response",
+      "uid" : "5cd763db74b0b639",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590573420556,
+        "stop" : 1590573422089,
+        "duration" : 1533
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome Headless-10.0.17763" ]
+    }, {
+      "name" : "Register New User",
+      "uid" : "703f22c2eb47c9f3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590560056315,
+        "stop" : 1590560065599,
+        "duration" : 9284
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Register New User",
+      "uid" : "8041ec78184df11",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590558612499,
+        "stop" : 1590558621313,
+        "duration" : 8814
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Register New User",
+      "uid" : "fa620e81e076bd17",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590558592435,
+        "stop" : 1590558601774,
+        "duration" : 9339
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Checkout and Verify Order",
+      "uid" : "166567e0a886d558",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1590570902858,
+        "stop" : 1590570922245,
+        "duration" : 19387
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Checkout and Verify Order",
+      "uid" : "2770724c6b36a70b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1590570808559,
+        "stop" : 1590570819037,
+        "duration" : 10478
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Checkout and Verify Order",
+      "uid" : "853e18646fefa85d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1590570966377,
+        "stop" : 1590570987401,
+        "duration" : 21024
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Get Employee and Validate response",
+      "uid" : "1b09eeb43222e7ad",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590573422093,
+        "stop" : 1590573423527,
+        "duration" : 1434
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome Headless-10.0.17763" ]
+    }, {
+      "name" : "Checkout and Verify Order",
+      "uid" : "5ae246ec475b869c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590571583456,
+        "stop" : 1590571609812,
+        "duration" : 26356
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Checkout and Verify Order",
+      "uid" : "272d6b0e0c0e5607",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590571173691,
+        "stop" : 1590571191943,
+        "duration" : 18252
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Signin with exsisting User",
+      "uid" : "2055069e52705bd8",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590561995881,
+        "stop" : 1590562001525,
+        "duration" : 5644
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Register New User",
+      "uid" : "9c3ad662b171c05c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590572843989,
+        "stop" : 1590572861007,
+        "duration" : 17018
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Register New User",
+      "uid" : "a0a8041b7dd942c9",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590572737512,
+        "stop" : 1590572747397,
+        "duration" : 9885
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Register New User",
+      "uid" : "43d32ec970c78d6e",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1590572470620,
+        "stop" : 1590572481263,
+        "duration" : 10643
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Register New User",
+      "uid" : "a10dad72df74688f",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590571542366,
+        "stop" : 1590571553884,
+        "duration" : 11518
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Register New User",
+      "uid" : "f32f7bd280bed032",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590571583558,
+        "stop" : 1590571599073,
+        "duration" : 15515
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Register New User",
+      "uid" : "e13f972b520c2137",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590572590024,
+        "stop" : 1590572599562,
+        "duration" : 9538
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Register New User",
+      "uid" : "3bfdcaf084298185",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590572383914,
+        "stop" : 1590572394890,
+        "duration" : 10976
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    }, {
+      "name" : "Register New User",
+      "uid" : "e6eaaa56a06a905b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590572993324,
+        "stop" : 1590573003556,
+        "duration" : 10232
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "Signin with exsisting User",
+      "uid" : "a29f4a2e52d7087d",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590571583893,
+        "stop" : 1590571594101,
+        "duration" : 10208
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-10.0.17763" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  } ]
+}

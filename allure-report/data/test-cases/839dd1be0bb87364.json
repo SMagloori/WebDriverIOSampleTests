@@ -1,0 +1,158 @@
+{
+  "uid" : "839dd1be0bb87364",
+  "name" : "Post Employee and Validate respose",
+  "fullName" : "Employee Database Tests.Post Employee and Validate respose",
+  "historyId" : "500a10153e1a66fb27774382d87f35ce",
+  "time" : {
+    "start" : 1590573419861,
+    "stop" : 1590573420554,
+    "duration" : 693
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I Call PostEmployee Endpoint",
+      "time" : {
+        "start" : 1590573419862,
+        "stop" : 1590573420539,
+        "duration" : 677
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I Verify Status Code is \"200\"",
+      "time" : {
+        "start" : 1590573420540,
+        "stop" : 1590573420541,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify Status is \"success\"",
+      "time" : {
+        "start" : 1590573420541,
+        "stop" : 1590573420543,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Validate JSON Schema for \"PostEmployee\" Endpoint for \"200\" Response",
+      "time" : {
+        "start" : 1590573420543,
+        "stop" : 1590573420546,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify EmployeeID is Generated and Present in response body",
+      "time" : {
+        "start" : 1590573420547,
+        "stop" : 1590573420550,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify Employee Details in response body is correct",
+      "time" : {
+        "start" : 1590573420550,
+        "stop" : 1590573420552,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Employee Database Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Employee Database Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Post Employee and Validate respose"
+  }, {
+    "name" : "package",
+    "value" : "Employee Database Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome Headless-10.0.17763"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "839dd1be0bb87364.json",
+  "parameterValues" : [ "Chrome Headless-10.0.17763" ]
+}

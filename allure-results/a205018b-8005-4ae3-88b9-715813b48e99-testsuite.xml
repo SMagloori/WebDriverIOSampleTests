@@ -1,0 +1,309 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1590578346756' stop='1590578351536'>
+    <name>Employee Database Tests</name>
+    <title>Employee Database Tests</title>
+    <test-cases>
+        <test-case start='1590578346775' status='passed' stop='1590578347104'>
+            <name>Get Employees and Validate JSON Schema</name>
+            <title>Get Employees and Validate JSON Schema</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-10.0.17763'/>
+            </parameters>
+            <steps>
+                <step start='1590578346781' status='passed' stop='1590578347096'>
+                    <name>Given I Call GetEmployees Endpoint</name>
+                    <title>Given I Call GetEmployees Endpoint</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578347097' status='passed' stop='1590578347097'>
+                    <name>When I Verify Status Code is "200"</name>
+                    <title>When I Verify Status Code is "200"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578347097' status='passed' stop='1590578347098'>
+                    <name>Then I Verify Status is "success"</name>
+                    <title>Then I Verify Status is "success"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578347098' status='passed' stop='1590578347102'>
+                    <name>Then I Validate JSON Schema for "GetEmployees" Endpoint for "200" Response</name>
+                    <title>Then I Validate JSON Schema for "GetEmployees" Endpoint for "200" Response</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1590578347105' status='passed' stop='1590578347767'>
+            <name>Post Employee and Validate respose</name>
+            <title>Post Employee and Validate respose</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-10.0.17763'/>
+            </parameters>
+            <steps>
+                <step start='1590578347105' status='passed' stop='1590578347764'>
+                    <name>Given I Call PostEmployee Endpoint</name>
+                    <title>Given I Call PostEmployee Endpoint</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578347764' status='passed' stop='1590578347764'>
+                    <name>When I Verify Status Code is "200"</name>
+                    <title>When I Verify Status Code is "200"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578347764' status='passed' stop='1590578347765'>
+                    <name>Then I Verify Status is "success"</name>
+                    <title>Then I Verify Status is "success"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578347765' status='passed' stop='1590578347765'>
+                    <name>Then I Validate JSON Schema for "PostEmployee" Endpoint for "200" Response</name>
+                    <title>Then I Validate JSON Schema for "PostEmployee" Endpoint for "200" Response</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578347765' status='passed' stop='1590578347766'>
+                    <name>Then I Verify EmployeeID is Generated and Present in response body</name>
+                    <title>Then I Verify EmployeeID is Generated and Present in response body</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578347766' status='passed' stop='1590578347766'>
+                    <name>Then I Verify Employee Details in response body is correct</name>
+                    <title>Then I Verify Employee Details in response body is correct</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1590578347767' status='failed' stop='1590578349022'>
+            <name>Get Employee and Validate response</name>
+            <title>Get Employee and Validate response</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-10.0.17763'/>
+            </parameters>
+            <steps>
+                <step start='1590578347767' status='passed' stop='1590578348384'>
+                    <name>Given I Call PostEmployee Endpoint</name>
+                    <title>Given I Call PostEmployee Endpoint</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578348384' status='passed' stop='1590578348385'>
+                    <name>Then I Verify EmployeeID is Generated and Present in response body</name>
+                    <title>Then I Verify EmployeeID is Generated and Present in response body</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578348385' status='passed' stop='1590578349019'>
+                    <name>When I Call GetEmployee Endpoint</name>
+                    <title>When I Call GetEmployee Endpoint</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578349019' status='failed' stop='1590578349022'>
+                    <name>Then I Verify Status Code is "200"</name>
+                    <title>Then I Verify Status Code is "200"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578349022' status='canceled' stop='1590578349023'>
+                    <name>Then I Verify Status is "success"</name>
+                    <title>Then I Verify Status is "success"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578349023' status='canceled' stop='1590578349023'>
+                    <name>Then I Validate JSON Schema for "GetEmployee" Endpoint for "200" Response</name>
+                    <title>Then I Validate JSON Schema for "GetEmployee" Endpoint for "200" Response</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578349023' status='canceled' stop='1590578349023'>
+                    <name>Then I Verify EmployeeID is Generated and Present in response body</name>
+                    <title>Then I Verify EmployeeID is Generated and Present in response body</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578349023' status='canceled' stop='1590578349023'>
+                    <name>Then I Verify Employee Details in response body is correct</name>
+                    <title>Then I Verify Employee Details in response body is correct</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578349023' status='canceled' stop='1590578349023'>
+                    <name>Then I Verify Employee Profile Image Link is present in response body</name>
+                    <title>Then I Verify Employee Profile Image Link is present in response body</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected '400' to equal '200'</message>
+                <stack-trace>AssertionError: expected '400' to equal '200'
+                    at World.&lt;anonymous> (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\API\Steps\/Common_Steps.js:18:43)
+                    at World.executeAsync (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\utils\build\shim.js:123:21)
+                    at World.testFrameworkFnWrapper (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:49:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1590578349024' status='failed' stop='1590578350288'>
+            <name>Get Employee and Validate response</name>
+            <title>Get Employee and Validate response</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-10.0.17763'/>
+            </parameters>
+            <steps>
+                <step start='1590578349024' status='passed' stop='1590578349641'>
+                    <name>Given I Call PostEmployee Endpoint</name>
+                    <title>Given I Call PostEmployee Endpoint</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578349642' status='passed' stop='1590578349642'>
+                    <name>Then I Verify EmployeeID is Generated and Present in response body</name>
+                    <title>Then I Verify EmployeeID is Generated and Present in response body</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578349642' status='passed' stop='1590578350284'>
+                    <name>When I Call PutEmployee Endpoint</name>
+                    <title>When I Call PutEmployee Endpoint</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578350284' status='passed' stop='1590578350285'>
+                    <name>Then I Verify Status Code is "200"</name>
+                    <title>Then I Verify Status Code is "200"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578350285' status='passed' stop='1590578350285'>
+                    <name>Then I Verify Status is "success"</name>
+                    <title>Then I Verify Status is "success"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578350285' status='failed' stop='1590578350288'>
+                    <name>Then I Validate JSON Schema for "PutEmployee" Endpoint for "200" Response</name>
+                    <title>Then I Validate JSON Schema for "PutEmployee" Endpoint for "200" Response</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578350288' status='canceled' stop='1590578350289'>
+                    <name>Then I Verify EmployeeID Present in response body is correct</name>
+                    <title>Then I Verify EmployeeID Present in response body is correct</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578350289' status='canceled' stop='1590578350289'>
+                    <name>Then I Verify Employee Details in response body is correct</name>
+                    <title>Then I Verify Employee Details in response body is correct</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected value to match json-schema '{"type":"object","properties":...' -> '{"status":"success","data":nul...'
+                      Invalid type: null (expected object)
+                          schema: {"type":"object","properties":{"status":{"type":"string"},"d...
+                          rule:   /properties/data/type -> "object"
+                          field:  /data -> null: null</message>
+                <stack-trace>AssertionError: expected value to match json-schema '{"type":"object","properties":...' -> '{"status":"success","data":nul...'
+                      Invalid type: null (expected object)
+                          schema: {"type":"object","properties":{"status":{"type":"string"},"d...
+                          rule:   /properties/data/type -> "object"
+                          field:  /data -> null: null
+                    at World.&lt;anonymous> (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\API\Steps\/Common_Steps.js:28:30)
+                    at World.executeAsync (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\utils\build\shim.js:123:21)
+                    at World.testFrameworkFnWrapper (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:49:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1590578350289' status='failed' stop='1590578351535'>
+            <name>Get Employee and Validate response</name>
+            <title>Get Employee and Validate response</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-10.0.17763'/>
+            </parameters>
+            <steps>
+                <step start='1590578350290' status='passed' stop='1590578350935'>
+                    <name>Given I Call PostEmployee Endpoint</name>
+                    <title>Given I Call PostEmployee Endpoint</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578350935' status='passed' stop='1590578350935'>
+                    <name>Then I Verify EmployeeID is Generated and Present in response body</name>
+                    <title>Then I Verify EmployeeID is Generated and Present in response body</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578350935' status='passed' stop='1590578351534'>
+                    <name>When I Call DeleteEmployee Endpoint</name>
+                    <title>When I Call DeleteEmployee Endpoint</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578351534' status='passed' stop='1590578351534'>
+                    <name>Then I Verify Status Code is "200"</name>
+                    <title>Then I Verify Status Code is "200"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578351534' status='failed' stop='1590578351535'>
+                    <name>Then I Verify Status is "success"</name>
+                    <title>Then I Verify Status is "success"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590578351535' status='canceled' stop='1590578351535'>
+                    <name>Then I Validate JSON Schema for "DeleteEmployee" Endpoint for "200" Response</name>
+                    <title>Then I Validate JSON Schema for "DeleteEmployee" Endpoint for "200" Response</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 'failed' to equal 'success'</message>
+                <stack-trace>AssertionError: expected 'failed' to equal 'success'
+                    at World.&lt;anonymous> (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\API\Steps\/Common_Steps.js:22:45)
+                    at World.executeAsync (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\utils\build\shim.js:123:21)
+                    at World.testFrameworkFnWrapper (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:49:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

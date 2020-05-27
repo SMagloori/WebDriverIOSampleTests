@@ -1,0 +1,153 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1590570808542' stop='1590570819042'>
+    <name>Checkout Tests</name>
+    <title>Checkout Tests</title>
+    <test-cases>
+        <test-case start='1590570808559' status='broken' stop='1590570819037'>
+            <name>Checkout and Verify Order</name>
+            <title>Checkout and Verify Order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.17763'/>
+            </parameters>
+            <steps>
+                <step start='1590570808564' status='passed' stop='1590570811834'>
+                    <name>Given I Naviate to Home Page</name>
+                    <title>Given I Naviate to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570811834' status='passed' stop='1590570811947'>
+                    <name>When I Click SignIn Button</name>
+                    <title>When I Click SignIn Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570811948' status='passed' stop='1590570813547'>
+                    <name>Then I Populate Registered Customer Credentials</name>
+                    <title>Then I Populate Registered Customer Credentials</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570813547' status='passed' stop='1590570813674'>
+                    <name>Then I Click Signin Button</name>
+                    <title>Then I Click Signin Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570813674' status='passed' stop='1590570814944'>
+                    <name>Then I Verify Customer Name on Header</name>
+                    <title>Then I Verify Customer Name on Header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570814944' status='passed' stop='1590570814994'>
+                    <name>Then I Click Woman Category Tab</name>
+                    <title>Then I Click Woman Category Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570814994' status='passed' stop='1590570817530'>
+                    <name>Then I Select Product with name Faded Short Sleeve T-shirts</name>
+                    <title>Then I Select Product with name Faded Short Sleeve T-shirts</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570817531' status='broken' stop='1590570819036'>
+                    <name>Then I Verify Product Description Page is Displayed</name>
+                    <title>Then I Verify Product Description Page is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570819037' status='canceled' stop='1590570819037'>
+                    <name>Then I Add Product to Kart</name>
+                    <title>Then I Add Product to Kart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570819038' status='canceled' stop='1590570819038'>
+                    <name>Then I Click Proceed to Checkout Button On Product Description Page</name>
+                    <title>Then I Click Proceed to Checkout Button On Product Description Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570819038' status='canceled' stop='1590570819038'>
+                    <name>Then I Click Proceed to Checkout Button On Shopping Cart Page</name>
+                    <title>Then I Click Proceed to Checkout Button On Shopping Cart Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570819038' status='canceled' stop='1590570819038'>
+                    <name>Then I Click Proceed to Checkout Button On Addresses Page</name>
+                    <title>Then I Click Proceed to Checkout Button On Addresses Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570819038' status='canceled' stop='1590570819038'>
+                    <name>Then I Click on Terms and Conditions CheckBox On Shipping Page</name>
+                    <title>Then I Click on Terms and Conditions CheckBox On Shipping Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570819038' status='canceled' stop='1590570819039'>
+                    <name>Then I Click Proceed to Checkout Button On Shipping Page</name>
+                    <title>Then I Click Proceed to Checkout Button On Shipping Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570819039' status='canceled' stop='1590570819039'>
+                    <name>Then I Select Pay By Wire Option on Payment Page</name>
+                    <title>Then I Select Pay By Wire Option on Payment Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570819039' status='canceled' stop='1590570819039'>
+                    <name>Then I Click I Confirm My Order Button On Payment Page</name>
+                    <title>Then I Click I Confirm My Order Button On Payment Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570819039' status='canceled' stop='1590570819039'>
+                    <name>Then I Verify that Order Confirmation Page is Displayed</name>
+                    <title>Then I Verify that Order Confirmation Page is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1590570819039' status='canceled' stop='1590570819039'>
+                    <name>Then I Verify that Order is Complete Text is Displayed</name>
+                    <title>Then I Verify that Order is Complete Text is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Evaluation failed: DOMException: Failed to execute 'evaluate' on 'Document': The string '///h1[@innertext="Faded Short Sleeve T-shirts"]' is not a valid XPath expression.
+                    at __puppeteer_evaluation_script__:3:39</message>
+                <stack-trace>Evaluation failed: DOMException: Failed to execute 'evaluate' on 'Document': The string '///h1[@innertext="Faded Short Sleeve T-shirts"]' is not a valid XPath expression.
+                    at __puppeteer_evaluation_script__:3:39
+                    at Frame.&lt;anonymous> (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\puppeteer-core\lib\helper.js:94:19)
+                    at Page.$x (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\puppeteer-core\lib\Page.js:266:33)
+                    at Page.&lt;anonymous> (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\puppeteer-core\lib\helper.js:95:27)
+                    at DevToolsDriver.findElement (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\devtools\build\utils.js:103:50)
+                    at DevToolsDriver.findElement (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\devtools\build\commands\findElement.js:29:29)
+                    at Browser.wrappedCommand (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\devtools\build\devtoolsdriver.js:92:47)
+                    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+                    at Browser.$ (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+                    at Browser.runCommandWithHooks (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Browser.runCommandWithHooks (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at $ (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\runner\build\index.js:189:36)
+                    at ProductDescriptionPage.productName (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\UI\PageObjects\/ProductDescriptionPage.js:4:32)
+                    at ProductDescriptionPage.getProductNameOnPage (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\UI\PageObjects\/ProductDescriptionPage.js:9:14)
+                    at World.&lt;anonymous> (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\UI\Steps\/ProductDescriptionPage_Steps.js:8:51)
+                    at World.executeSync (C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\CPANDITH\Desktop\GFK\AutomationTest\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

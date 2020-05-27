@@ -1,0 +1,158 @@
+{
+  "uid" : "a29f4a2e52d7087d",
+  "name" : "Signin with exsisting User",
+  "fullName" : "Customer SignIn Tests.Signin with exsisting User",
+  "historyId" : "e8a029052e49c57e7ca5be0581c5161b",
+  "time" : {
+    "start" : 1590571583893,
+    "stop" : 1590571594101,
+    "duration" : 10208
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I Naviate to Home Page",
+      "time" : {
+        "start" : 1590571583904,
+        "stop" : 1590571589113,
+        "duration" : 5209
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I Click SignIn Button",
+      "time" : {
+        "start" : 1590571589114,
+        "stop" : 1590571589255,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Populate Registered Customer Credentials",
+      "time" : {
+        "start" : 1590571589256,
+        "stop" : 1590571592124,
+        "duration" : 2868
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Click Signin Button",
+      "time" : {
+        "start" : 1590571592124,
+        "stop" : 1590571592282,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Verify Customer Name on Header",
+      "time" : {
+        "start" : 1590571592284,
+        "stop" : 1590571593910,
+        "duration" : 1626
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I Click on Logout",
+      "time" : {
+        "start" : 1590571593910,
+        "stop" : 1590571594097,
+        "duration" : 187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Customer SignIn Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer SignIn Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Signin with exsisting User"
+  }, {
+    "name" : "package",
+    "value" : "Customer SignIn Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-10.0.17763"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a29f4a2e52d7087d.json",
+  "parameterValues" : [ "Chrome-10.0.17763" ]
+}
